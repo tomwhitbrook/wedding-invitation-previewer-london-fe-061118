@@ -1,0 +1,56 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.display_invitation_preview_default {
+    
+    width: 90%;
+    margin: 0 auto;
+
+    border: 3px solid whitesmoke;
+    box-shadow:  -1px 1px wheat, -2px 2px blanchedalmond, -3px 3px blanchedalmond, -4px 4px blanchedalmond, -5px 5px blanchedalmond;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace
+  }
+
+  .display_invitation_preview_classy {
+    
+    width: 90%;
+    margin: 0 auto;
+
+    border: 3px solid whitesmoke;
+    box-shadow:  -1px 1px wheat, -2px 2px blanchedalmond, -3px 3px blanchedalmond, -4px 4px blanchedalmond, -5px 5px blanchedalmond;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .display_invitation_preview_classier {
+    
+    width: 90%;
+    margin: 0 auto;
+
+    border: 3px solid navajowhite;
+    box-shadow:  -1px 1px blue, -2px 2px darkblue, -3px 3px darkblue, -4px 4px darkblue, -5px 5px darkblue;
+    background-color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: navajowhite
+  }
+
+  .display_invitation_preview_classyAF {
+    
+    width: 90%;
+    margin: 0 auto;
+
+    border: 3px solid gold;
+    box-shadow:  -1px 1px gray, -2px 2px darkslategray, -3px 3px darkslategray, -4px 4px darkslategray, -5px 5px darkslategray;
+    background-color: darkgray;
+    font-family: Snell Roundhand;
+    color: gold
+  }
+  

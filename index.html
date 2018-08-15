@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wedding Invitation Previewer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    
+    <div id="invitationPreviewPage">
+
+    <h1>Wedding Invitation Designer</h1>
+    
+    <div id="navigationButtons"></div>
+    <nav>
+        <button id="set_classy_invitation" onclick="selectClassyPreview()">Classy</button>
+        <button id="set_classier_invitation" onclick="selectClassierPreview()">Classier</button>
+        <button id="set_classyAF_invitation" onclick="selectClassyAFPreview()">Classy AF</button>
+    </nav>
+    </div>
+
+    <br>
+
+    <div id="user_detail_input_form">
+    <form>
+        Person One First Name:
+        <br>
+        <input type="text" id="person1FirstName" name="person1FirstName" value="" oninput="fieldChanged(this.id, this.value)">
+        <br>
+        Person Two Second Name:
+        <br>
+        <input type="text" id="person2FirstName" name="person2FirstName" value="" oninput="fieldChanged(this.id, this.value)">
+        <br>
+        Person One Last Name:
+        <br>
+        <input type="text" id="person1LastName" name="person1LastName" value="" oninput="fieldChanged(this.id, this.value)">
+        <br>
+        Person Two Last Name:
+        <br>
+        <input type="text" id="person2LastName" name="person2LastName" value="" oninput="fieldChanged(this.id, this.value)">
+        <br>
+        Date:
+        <br>
+        <input type="text" id="date" name="date" value="" oninput="fieldChanged(this.id, this.value)">
+        <br>
+        Location:
+        <br>
+        <input type="text" id="location" name="location" value="" oninput="fieldChanged(this.id, this.value)">
+        <br>
+    </form> 
+    </div>
+    <br>
+
+    <div class="display_invitation_preview_default" id="display_invitation_preview_box">
+    <h1 id="invitation_initials_label"></h1>
+
+    <h4>You are cordially invited to the wedding of</h4>
+
+    <h2 id="invitation_firstname_label"></h2>
+
+    <h1 id="invitation_lastname_label"></h1>
+
+    <h3 id="invitation_date_label"></h3>
+
+    <h3 id="invitation_location_label"></h3>
+    </div>
+
+</div>
+
+</body>
+
+</html>
